@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// Relative URLs work both at the GitHub Pages project subpath and on local hosting.
+// GitHub Pages serves this project from /PaceTrack-AI/, not from the domain root.
 export default defineConfig({
-  base: './',
+  base: '/PaceTrack-AI/',
   plugins: [react()],
 });
