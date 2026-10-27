@@ -1,0 +1,1 @@
+/** @type {import('tailwindcss').Config} */ export default { content: ['./index.html','./src/**/*.{ts,tsx}'], theme: { extend: { colors: { lime: { electric: '#84cc16' }, zinc: { 950: '#09090b' } }, fontFamily: { sans: ['Inter','ui-sans-serif','system-ui'] } } }, plugins: [] }
