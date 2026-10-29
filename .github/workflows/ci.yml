@@ -1,9 +1,14 @@
-name: PaceTrack AI CI
+name: AuraAssist CI
+
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
+
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
