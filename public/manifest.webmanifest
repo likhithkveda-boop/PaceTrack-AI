@@ -1,1 +1,12 @@
-{"name":"PaceTrack AI","short_name":"PaceTrack","description":"Offline-first cricket bowling telemetry","start_url":"/","display":"standalone","background_color":"#09090b","theme_color":"#09090b","icons":[]}
+{
+  "name": "AuraAssist — Smart Passthrough",
+  "short_name": "AuraAssist",
+  "description": "Offline-capable microphone pass-through and adaptive speech clarity controls.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#071116",
+  "theme_color": "#071116",
+  "icons": [{"src":"./aura-mark.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
